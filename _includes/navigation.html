@@ -2,14 +2,14 @@
 <ul>
     {% for group in pages %}
         {% if group.name != include.context %}
-            <li class="{% if page.url contains group.name %}active{% endif %}">
-                <span>{{ group.name | replace: '/', '' | capitalize }}</span>
+            <li class="{% if page.url contains group.name %}current-menu-item{% endif %}">
+                <a href="#">{{ group.name | replace: '/', '' | capitalize }}</a>
                 {% include navigation.html context=group.name %}
             </li>
         {% else %}
             {% for item in group.items %}
                 {% if item.url != '/404.html' %}
-                    <li>
+                    <li class="{% if page.url == item.url %}current-menu-item{% endif %}" >
                         <a href="{{ item.url }}">{{ item.title }}</a>
                     </li>
                 {% endif %}
