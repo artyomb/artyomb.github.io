@@ -1,0 +1,15 @@
+title: Welcome
+email: joe@somewhere.com
+description: >- # this means to ignore newlines until "baseurl:"
+  site description.
+#baseurl: "" # the subpath of your site, e.g. /blog
+#url: "" # the base hostname & protocol for your site, e.g. http://example.com
+hypercomments_id: "103894"
+twitter_username:
+github_username:  artyomb
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
