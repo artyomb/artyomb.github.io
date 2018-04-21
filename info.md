@@ -1,10 +1,10 @@
 This website is a GitHub Page of the account [https://github.com/artyomb](https://github.com/artyomb). 
 It uses Jekyll framework to generate pages. And slightly customized `minima` theme.
 
-The site is still under construction and supposed to change as fas as I study Jekyll more. 
+The site is still under construction and is supposed to change as fas as I study Jekyll more. 
 
 # Projects
-My projects on GitHub. I've started push the project only a month ago. So, there aren't a lot of them. 
+My projects on GitHub. I've started push the projects only a month ago. So, there aren't a lot of them. 
 
 ### **Ruby fun**
 ---
