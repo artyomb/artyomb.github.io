@@ -5,4 +5,5 @@ order: 1
 ---
 
 {%- include categories_list.html -%}
+{%- include posts.html -%}
 
