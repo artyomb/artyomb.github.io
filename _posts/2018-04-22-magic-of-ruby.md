@@ -10,7 +10,8 @@ Let's start from the basics. Ruby has the following syntax feature:
 {% highlight ruby %}
 collection.map(&:name)
 {% endhighlight %}
-witch means
+
+which means
 
 {% highlight ruby %}
 collection.map{ |el| el.name }
