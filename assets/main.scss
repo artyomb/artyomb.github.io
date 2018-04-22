@@ -4,9 +4,13 @@
 
 @import "minima";
 
+.site-header {
+  min-height: 20px;
+}
+
 #primary_nav_wrap
 {
-  margin-top:15px
+//  margin-top:15px
 }
 
 #primary_nav_wrap ul
@@ -23,11 +27,11 @@
   display:block;
   color:#333;
   text-decoration:none;
-  font-weight:700;
-  font-size:12px;
-  line-height:32px;
+//  font-weight:700;
+//  font-size:12px;
+//  line-height:32px;
   padding:0 15px;
-  font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
+//  font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
 }
 
 #primary_nav_wrap ul li
@@ -45,7 +49,7 @@
 
 #primary_nav_wrap ul li:hover
 {
-  background:#f6f6f6
+  background:#ccc
 }
 
 #primary_nav_wrap ul ul
