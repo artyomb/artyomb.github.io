@@ -36,7 +36,7 @@
 
 #primary_nav_wrap ul li
 {
-  position:relative;
+//  position:relative;
   float:left;
   margin:0;
   padding:0
@@ -64,8 +64,8 @@
 
 #primary_nav_wrap ul ul li
 {
-  float:none;
-  width:200px
+  float:right;
+  min-width:200px
 }
 
 #primary_nav_wrap ul ul a
