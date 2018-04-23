@@ -6,6 +6,9 @@ categories: ruby
 comments: true
 ---
 
+Ruby has the syntax feature like `&` with many use scenario. I combined some interesting posts I have found.  
+
+ 
 Let's start from the basics. Ruby has the following syntax feature: 
 {% highlight ruby %}
 collection.map(&:name)

@@ -4,6 +4,10 @@ title:  "Posts"
 order: 1
 ---
 
-{%- include categories_list.html -%}
-{%- include posts.html -%}
+{% include posts.html %}  
+
+---
+### Categories
+
+{% include categories_list.html %}
 

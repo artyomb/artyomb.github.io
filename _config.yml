@@ -9,7 +9,9 @@ twitter_username:
 github_username:  artyomb
 
 # Build settings
+show_excerpts: true
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+
