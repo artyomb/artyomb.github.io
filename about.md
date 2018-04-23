@@ -1,9 +1,10 @@
 ---
 layout: page
-title:  "About/Contact"
-header: "About this web site"
+title:  "About"
+header: "About"
 order: 20
 comments: true
 ---
 
-{% include_relative info.md %}
+GitHub: [https://github.com/artyomb](https://github.com/artyomb)
+ 

@@ -1,4 +1,6 @@
-{% assign sorted_pages = site.html_pages| sort:"order" %}
+{% assign sorted_pages_map = site.html_pages| sort:"order" | group_by: 'skip_menu' %}
+{% assign sorted_pages = sorted_pages_map.first.items %}
+
 {% assign pages = sorted_pages | where_exp: 'page', 'page.url contains include.context' | group_by: 'dir' %}
 <ul>
     {% for group in pages %}

@@ -7,6 +7,10 @@ title: 'Home page'
 header: ''
 order: 0
 comments: true
+skip_menu: true
 ---
 
-{% include_relative info.md %}
+This website is a GitHub Page of the account [https://github.com/artyomb](https://github.com/artyomb). 
+It uses Jekyll framework to generate pages and slightly customized `minima` theme.
+
+Take a look at the Project [page](/projects)
