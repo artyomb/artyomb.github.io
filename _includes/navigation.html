@@ -1,5 +1,9 @@
 {% assign sorted_pages_map = site.html_pages| sort:"order" | group_by: 'skip_menu' %}
-{% assign sorted_pages = sorted_pages_map.first.items %}
+{% for el in sorted_pages_map %}
+    {% if el.name == '' %}
+        {% assign sorted_pages = el.items %}
+    {% endif %}
+{% endfor %}
 
 {% assign pages = sorted_pages | where_exp: 'page', 'page.url contains include.context' | group_by: 'dir' %}
 <ul>
