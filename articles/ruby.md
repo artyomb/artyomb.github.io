@@ -12,8 +12,8 @@ Pure Ruby language test. There are only three Live Coding Questions.
 1. Palindrome - A palindrome is a word that reads the same...
 2. File Owners - Implement a group_by_owners function...
 3. Path - Write a function that provides change...
-<https://www.testdome.com/tests/ruby-online-test/52>
-Answers:
+<https://www.testdome.com/tests/ruby-online-test/52>  
+### Answers:
 {% highlight ruby %}
     # Palindrome
     word.downcase == word.downcase.reverse 
@@ -23,6 +23,7 @@ Answers:
       (r[pair[1]] ||= []) << pair[0]
       r
     end
+    
     # Path
     @current_path += "/#{new_path}"
     @current_path.gsub!(/\/[^\/]+\/\.\./, '') while @current_path =~ /\.\./
