@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Crete SSL certificate simple way"
+title:  "Create SSL certificate simple way"
 date:   2018-04-26 11:53:23 +0300
 categories: linux ssl
 comments: true
