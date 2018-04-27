@@ -43,4 +43,4 @@ The test cover a lot of Ruby aspects from Beginner through Advanced level.
 It is the best way to make you Ruby knowledge coverage test for now.
 
 ## More ...
-Please live the comment with other good online test if you know.
+Please leave a comment with the good online tests you know.
