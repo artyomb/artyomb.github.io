@@ -16,6 +16,16 @@ to the file, the string literal for greeting is then automatically frozen
 (meaning it can't be modified). This means that if name is present and we try
 to personalize the greeting, a runtime error will be raised.
 
+Also you can force it by command line argument
+> ruby --enable-frozen-string-literal source_code.rb
+
+or 
+
+>ruby --enable-frozen-string-literal-debug source_code.rb
+
+
+
+
 This includes those created using double quotes (“), single quotes (‘), or the special forms %Q and %q.
 
 ## What for?
