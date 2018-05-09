@@ -12,5 +12,7 @@ github_username:  artyomb
 show_excerpts: true
 markdown: kramdown
 theme: minima
+
+# List of available Plugins https://pages.github.com/versions
 plugins:
   - jekyll-feed
