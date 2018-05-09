@@ -33,7 +33,7 @@ The operator `&.` checks for **nil** value and gracefully interrupts whole expre
  
 
 # Using with Hashes
-The same semantics for Hashes may look like this
+The same semantic for Hashes may looks like this
 ```ruby
 h = {key1: 1, key2: { subkey: 's'} }
 
@@ -67,9 +67,4 @@ Some cases may lead to misunderstanding.
   obj = 1
   obj&.attr # undefined method `attr' for 1:Integer 
   ``` 
-- Don't do assignment to `&.` operator result
-  ```ruby
-  obj&.attr += 1 
-  ```
-
 
