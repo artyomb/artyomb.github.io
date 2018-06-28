@@ -12,4 +12,4 @@ group :jekyll_plugins do
 end
 
 # --baseurl '/ruby_gl'
-# bundle exec jekyll serve --watch
+# JEKYLL_ENV=production bundle exec jekyll serve --watch
