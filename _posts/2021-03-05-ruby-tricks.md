@@ -7,7 +7,7 @@ comments: true
 
 Let's start with some return object modification: 
 
-<iframe src='https://tech.io/snippet-widget/AS6mxA3' width='100%' frameborder='0' scrolling='no' allowtransparency='true' style='visibility:hidden'></iframe>
+<iframe src='https://tech.io/snippet-widget/VgamWZK' width='100%' frameborder='0' scrolling='no' allowtransparency='true' style='visibility:hidden'></iframe>
 
 <!--
 ```ruby
