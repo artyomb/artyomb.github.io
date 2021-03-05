@@ -8,9 +8,6 @@ comments: true
 Let's start with some return object modification: 
 
 <iframe src='https://tech.io/snippet-widget/AS6mxA3' width='100%' frameborder='0' scrolling='no' allowtransparency='true' style='visibility:hidden'></iframe>
-<script>
-if(void 0===window.techioScriptInjected){window.techioScriptInjected=!0;let script = document.createElement("script");script.src="https://files.codingame.com/codingame/iframe-v-1-4.js";(document.head||document.body).appendChild(script)}
-</script>
 
 <!--
 ```ruby
@@ -53,6 +50,9 @@ puts str.gsub /.*/, &proc
 ```
 -->
 
+<script src="https://files.codingame.com/codingame/iframe-v-1-4.js"></script>
 <script>
-if(void 0===window.techioScriptInjected){window.techioScriptInjected=!0;let script = document.createElement("script");script.src="https://files.codingame.com/codingame/iframe-v-1-4.js";(document.head||document.body).appendChild(script)}
+    document.querySelector("iframe").addEventListener( "load", function(e) {
+        this.contentWindow.postMessage("sendSize", '*');
+    });
 </script>
