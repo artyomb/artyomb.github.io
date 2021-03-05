@@ -23,7 +23,7 @@ puts str.special? # yes!
 ```
 -->
 
-# What going on?
+# What's going on?
 How can we find out the way the object in ued?
 
 
