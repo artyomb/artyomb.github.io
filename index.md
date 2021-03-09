@@ -37,7 +37,7 @@ Take a look at the Projects [page](/projects)
 - Continuous Integration/Testing/Deployment
 
 ### Linux
-No matter how long I study Linux there always more to discover!
+No matter how long I study Linux, they're always more to discover!
 
 ## About This Site
 This site is hosted on GitHub pages and powered by Jekyll. 

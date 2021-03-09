@@ -32,7 +32,7 @@ Pure Ruby language test. There are only three Live Coding Questions.
 
 I like there is online code editor and test. 
 You have to write the code that passes the series of unit test to complete the task.
-Sadly there arn't more test.
+Sadly there aren't more test.
 
 ## CodeQuizzes.com
 Very good list of test with descriptive answers. 

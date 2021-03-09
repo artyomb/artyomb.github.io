@@ -5,7 +5,7 @@ order: 10
 comments: true
 ---
 
-My projects on GitHub. I've started push the projects only a month ago. So, there aren't a lot of them. 
+My projects on GitHub. I've started pushing the projects only a month ago. So, there aren't a lot of them. 
 
 ### General
 
@@ -13,7 +13,7 @@ My projects on GitHub. I've started push the projects only a month ago. So, ther
     Ruby Gem. TCP(HTTP) server that serves SSL(TLS) connections and forwards them to the target
 
 - [https://github.com/artyomb/**ruby_fun**](https://github.com/artyomb/ruby_fun)  
-    Ruby fun project is the place I post different examples of Ruby language interesting capabilities like `module prepend`.
+  The Ruby fun project is the place I post various examples of Ruby language interesting capabilities like `module prepend`.
 
 - [https://github.com/artyomb/**ruby_gl**](https://github.com/artyomb/ruby_gl)  
     Ruby GL is a sandbox for 3D graphics experiments.  
@@ -22,4 +22,5 @@ My projects on GitHub. I've started push the projects only a month ago. So, ther
 
 # **Brothers in Arms**
 
-I'm looking for the fiends who love Ruby, Linux, Distributive solutions. Please leave a comment or contact me any way!
+I’m looking for friends who love Ruby, Linux, Distributive solutions. 
+Please leave a comment or contact me any other way!
